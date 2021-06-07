@@ -8,33 +8,39 @@
     <title>Sign Up</title>
 </head>
 <body>
+    
     <div id="main-div">
-        <form >
-            <h1 id="header-heading">Sign Up</h1>
-            <p id="header-para">Please fill in the form to create an account</p>
+        <div style="margin:20px">
+            <div id="header">
+                <h1 class="header-elem">Sign Up</h1>
+                <p id="header-para" class="header-elem">Please fill in the form to create an account</p>
+                
+            </div>
             <hr>
 
+            <form>
+                <!-- for name -->
+                <input class="inputs f-name" type="text" placeholder="First Name"> 
+                <input class="inputs l-name" type="text" placeholder="Last Name"> <br>
 
-            <!-- form  main part -->
+                <!-- for email -->
+                <input class="inputs email" type="Email" placeholder="Email"> <br>
 
-            <!-- for name -->
-            <input class="inputs f-name" type="text" placeholder="First Name"> 
-            <input class="inputs l-name" type="text" placeholder="Last Name"> <br>
+                <!-- for password -->
+                <input class="inputs pass" type="password" placeholder="Password"> <br>
 
-            <!-- for email -->
-            <input class="inputs email" type="Email" placeholder="Email"> <br>
+                <!-- for confirm password -->
+                <input class="inputs pass" type="password" placeholder="Confirm Password"> <br>
 
-            <!-- for password -->
-            <input class="inputs pass" type="password" placeholder="Password"> <br>
-
-            <!-- for confirm password -->
-            <input class="inputs pass" type="password" placeholder="Confirm Password"> <br>
-
-            <input id="check" type="checkbox"> <span id="span-text">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></span> <br>
-            <button id="btn">Sign up</button>
-        </form>
+                <input id="check" type="checkbox"> <span id="span-text">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></span> <br>
+                <button id="btn">Sign up</button>
+            </form>
+        </div>
+       
     </div>
-
+    <p id="footer-para">Already hava an account? <a id="footer-anchor" href="#">login here</a> </p>
+    
+    
 
 
 </body>
