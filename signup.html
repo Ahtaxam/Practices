@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
     <title>Sign Up</title>
 </head>
 <body>
-    <div>
+    <div id="main-div">
         <form >
-            <h1>Sign Up</h1>
-            <p>Please fill in the form to create an account</p>
+            <h1 id="header-heading">Sign Up</h1>
+            <p id="header-para">Please fill in the form to create an account</p>
             <hr>
 
 
             <!-- form  main part -->
 
             <!-- for name -->
-            <input type="text" placeholder="First Name"> 
-            <input type="text" placeholder="Last Name"> <br>
+            <input class="inputs f-name" type="text" placeholder="First Name"> 
+            <input class="inputs l-name" type="text" placeholder="Last Name"> <br>
 
             <!-- for email -->
-            <input type="Email" placeholder="Email"> <br>
+            <input class="inputs email" type="Email" placeholder="Email"> <br>
 
             <!-- for password -->
-            <input type="password" placeholder="Password"> <br>
+            <input class="inputs pass" type="password" placeholder="Password"> <br>
 
             <!-- for confirm password -->
-            <input type="password" placeholder="Confirm Password"> <br>
+            <input class="inputs pass" type="password" placeholder="Confirm Password"> <br>
 
-            <input type="checkbox"> <span>I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></span> <br>
-            <button>Sign up</button>
+            <input id="check" type="checkbox"> <span id="span-text">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></span> <br>
+            <button id="btn">Sign up</button>
         </form>
     </div>
 
