@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #8797ff;
+}
+
+/* main div */
+#main-div{
+    width: 430px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#header {
+    padding: 20px 35px;
+}
+
+.header-elem {
+    margin-top: 10px
+}
+
+/* header para */
+#header-para{
+    color: gray;
+}
+
+
+/* form main part styling */
+
+.inputs
+{
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 24px;
+    background-color: #cccc;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   
+
+}
+
+.f-name , .l-name{
+    width: 30%;
+}
+
+.email , .pass
+{
+    width: 77%;
+}
+
+.inputs::placeholder{
+    font-size: 14px;
+}
+
+
+
+
+
+/* styling form footer */
+
+
+#check{
+    margin:30px 0px 0px 30px
+}
+
+#span-text{
+    color: gray;
+}
+
+/* modify anchor tag */
+a{
+    text-decoration: none;
+    color: #2940d3;
+}
+/* styling button */
+
+#btn{
+    width: 150px;
+    height: 40px;
+    margin: 30px 0px 30px 30px;
+    background-color: #8797ff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+#footer-anchor{
+    color: white;
+    text-decoration:underline;
+}
+#footer-para{
+    margin-left: 510px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: white;
+}
